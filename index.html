@@ -57,14 +57,14 @@
         <h2>WHAT WE DO</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="moredeatail">
+                    <div class="detail">
                         <div class="icon">                      
-                        <img src="assets/services_icons/design_icon.png" alt="dev">
+                        <img src="IP3-master/services_icons/design_icon.png" alt="dev">
                             <div class="caption">
                                 <p>DESIGN</p>
                             </div>              
                         </div>
-                        <div class="moredeatail">
+                        <div class="moredetail">
                             <h4>Design</h4>
                             <p>
                                 Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
@@ -76,12 +76,12 @@
                 <div class="col-md-4">
                     <div class="detail">
                         <div class="icon">                      
-                            <img src="assets/services_icons/dev_icon.png" alt="dev">
+                            <img src="IP3-master/services_icons/dev_icon.png" alt="dev">
                             <div class="caption">
                                 <p>DEVELOPMENT</p>
                             </div>              
                         </div>
-                        <div class="moredeatail">
+                        <div class="moredetail">
                             <h4>Development</h4>
                             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
                             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
@@ -91,12 +91,12 @@
                 <div class="col-md-4">
                     <div class="detail">
                         <div class="icon">                      
-                            <img src="assets/services_icons/product_icon.png" alt="dev">
+                            <img src="IP3-master/services_icons/product_icon.png" alt="dev">
                             <div class="caption">
                                 <p>PRODUCT MANAGEMENT</p>
                             </div>              
                         </div>
-                        <div class="moredeatail">
+                        <div class="moredetail">
                             <h4>Product Management</h4>
                             <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p> 
                             <p>This iterative process allows for changes as business requirements evolve.</p>
@@ -109,42 +109,42 @@
             <div class="row">
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work1.jpg" alt="work1" id="work1" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work1.jpg" alt="work1" id="work1" style="width:100%">                                            
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work2.jpg" alt="work2" id="work2"style="width:100%">                                         
+                    <img src="IP3-master/portfolio/work2.jpg" alt="work2" id="work2"style="width:100%">                                         
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work3.jpg" alt="work3" id="work3" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work3.jpg" alt="work3" id="work3" style="width:100%">                                            
                 </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work4.jpg" alt="work4" id="work4" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work4.jpg" alt="work4" id="work4" style="width:100%">                                            
                 </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work5.jpg" alt="work5" id="work5" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work5.jpg" alt="work5" id="work5" style="width:100%">                                            
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work6.jpg" alt="work6" id="work6" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work6.jpg" alt="work6" id="work6" style="width:100%">                                            
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work7.jpg" alt="work7" id="work7" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work7.jpg" alt="work7" id="work7" style="width:100%">                                            
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="thumbnail">
-                    <img src="assets/portfolio/work8.jpg" alt="work8" id="work8" style="width:100%">                                            
+                    <img src="IP3-master/portfolio/work8.jpg" alt="work8" id="work8" style="width:100%">                                            
                     </div>
                 </div>      
          </div>
@@ -152,29 +152,28 @@
     <div class="contact">
         <h5>CONTACT US</h5>
         <div class="row">
-                <form class="form-inline" id="contactform">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Your name..." name="name">
-                    <label for="email"></label>
-                    <input type="text" id="email" placeholder="Your email..." name="email">
-            </div>
-            <div class="row">
-                <textarea name="" id="btn" cols="120" rows="10">Talk to Us</textarea>
-            </div>
-            <button type="submit" class="btn">Submit</button>
-        </form>
-        <div id=""></div>
+            <form  name="cform" class="form-inline" id="contactform" onsubmit="return validateForm()">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Your name..." name="name">
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Your email..." name="email">
+        </div>
+        <div class="row">
+            <textarea name="" id="btn" cols="120" rows="10">Talk to Us</textarea>
+        </div>
+        <button type="submit" class="btn" value="submit">Submit</button>
+    </form>
         </div>
     <div class="social">
-        <img src="assets/social_icons/twitter.png" alt="twitter">
-        <img src="assets/social_icons/dribble.png" alt="dribble">
-        <img src="assets/social_icons/facebook.png" alt="facebook">
-        <img src="assets/social_icons/g_plus.png" alt="gplus">
-        <img src="assets/social_icons/skype.png" alt="skype">
-        <img src="assets/social_icons/stumble_upon.png" alt="stumble">
-        <img src="assets/social_icons/behance.png" alt="behance">
-        <img src="assets/social_icons/pinterest.png" alt="pinterest">
-        <img src="assets/social_icons/flickr.png" alt="flickr">
+        <img src="IP3-master/social_icons/twitter.png" alt="twitter">
+        <img src="IP3-master/social_icons/dribble.png" alt="dribble">
+        <img src="IP3-master/social_icons/facebook.png" alt="facebook">
+        <img src="IP3-master/social_icons/g_plus.png" alt="gplus">
+        <img src="IP3-master/social_icons/skype.png" alt="skype">
+        <img src="IP3-master/social_icons/stumble_upon.png" alt="stumble">
+        <img src="IP3-master/social_icons/behance.png" alt="behance">
+        <img src="IP3-master/social_icons/pinterest.png" alt="pinterest">
+        <img src="IP3-master/social_icons/flickr.png" alt="flickr">
     </div>
     <div class="footer">
         <h5>
