@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+.header {
+  color: white;
+  cursor: url(../IP3-master/mouse_click.png), auto;
+  background-image: url(../IP3-master/backgrounds/h_img.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 320px;
+  padding-bottom: 220px;
+}
+
+span.namestudio {
+  font-size: 2.5rem;
+  border: 5px solid;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.aboutus {
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.ourservices {
+  color: white;
+  background-image: url("../IP3-master/backgrounds/s_image.jpg");
+  background-size: cover;
+  cursor: url("../IP3-master/mouse_click.png"), auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.expertise {
+  background-color: white;
+  color: black;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.portfolio {
+  cursor: url("../IP3-master/mouse_click.png"), auto;
+  background-color: white;
+  color: black;
+}
+.contact {
+  color: black;
+  background-color: white;
+}
+
+.row {
+  padding: 200px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.contact {
+  color: white;
+  background-image: url("../IP3-master/backgrounds/c_image.jpg");
+  cursor: url("../IP3-master/mouse_click.png"), auto;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background-size: cover;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+input[type="submit"] {
+  width: 20%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(65, 225, 92);
+}
+.social {
+  color: black;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.icon,
+.moredetail {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.moredetail {
+  display: none;
+}
+
+.detail {
+  position: relative;
+  min-height: 200px;
+}
+.footer {
+  color: black;
+  background-color: white;
+}
