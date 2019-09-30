@@ -1,22 +1,25 @@
-// mouse over display hidden div
-$(".detail")
-  .mouseover(function() {
-    $(this)
-      .children(".icon")
-      .hide();
-    $(this)
-      .children(".moredetail")
-      .show();
-  })
-  .mouseout(function() {
-    $(this)
-      .children(".icon")
-      .show();
-    $(this)
-      .children(".moredetail")
-      .hide();
-  });
-// Validation form for data entry
+// mouseOver display hidden div
+$(document).ready(function() {
+  $(".detail")
+    .mouseover(function() {
+      $(this)
+        .children(".icon")
+        .hide();
+      $(this)
+        .children(".moredetail")
+        .show();
+    })
+    .mouseout(function() {
+      $(this)
+        .children(".icon")
+        .show();
+      $(this)
+        .children(".moredetail")
+        .hide();
+    });
+});
+
+// Validate form for entry
 function validateForm() {
   var cname = document.forms["cform"]["name"].value;
   if (cname == "") {
